@@ -9,3 +9,5 @@ __pycache__/
 *$py.class
 
 .python-version
+
+*.egg-info

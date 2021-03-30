@@ -1,0 +1,3 @@
+include pmevo_eval/data/SKL/mapping_pmevo.json
+include pmevo_eval/data/ZEN/mapping_pmevo.json
+include pmevo_eval/data/A72/mapping_pmevo.json

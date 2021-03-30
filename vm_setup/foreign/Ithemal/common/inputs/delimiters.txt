@@ -1,4 +1,0 @@
-SRC_DEM,-1
-DST_DEM,-2
-END_DEM,-3
-MEM_TAG,-4

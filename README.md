@@ -1,3 +1,11 @@
+# Evaluator for PMEvo, based on PMEvo artifact
+
+Original README below.
+
+This fork is intended to offer an easy Python interface to evaluate
+[Palmed](https://palmed.corse.inria.fr) against PMEvo. All credit goes to the
+original authors — see below.
+
 # Artifact for "PMEvo: Portable Inference of Port Mappings for Out-of-Order Processors by Evolutionary Optimization"
 
 Also see the [project website](https://compilers.cs.uni-saarland.de/projects/portmap/) and the [paper](https://compilers.cs.uni-saarland.de/papers/ritter_pmevo_pldi20.pdf).

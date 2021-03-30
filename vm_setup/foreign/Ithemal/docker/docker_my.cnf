@@ -1,8 +1,0 @@
-[mysql]
-database=ithemal
-
-[client]
-host=db
-port=3306
-user=root
-password=ithemal
