@@ -93,7 +93,7 @@ class PmevoMapping:
     def map_instructions(
         self, palmed_iset: List[PALMED_INSTR_T]
     ) -> Dict[PALMED_INSTR_T, Insn]:
-        """Generate a mapping from palmed instructions to a pmevo instruction set,
+        """Generate a mapping from palmed instruction names to a pmevo instruction set,
         based on a lot of guesswork"""
 
         if self._palmed_to_pmevo:
@@ -119,7 +119,7 @@ class PmevoMapping:
             return canonicalize_with(mnemonic, ops_orig, self._pmevo_operands_re)
 
         def canonicalize_palmed_instr(palmed_instr: PALMED_INSTR_T):
-            mnemonic_split = palmed_instr.name().split("_", 1)
+            mnemonic_split = palmed_instr.split("_", 1)
             try:
                 mnemonic, ops_str = mnemonic_split
                 ops_orig = ops_str.split("_")
