@@ -135,7 +135,7 @@ class PmevoMapping:
         for insn in palmed_iset:
             canonical = canonicalize_palmed_instr(insn)
             if canonical not in canonical_to_pmevo:
-                logger.warning("CANNOT MAP: %s <%s>", canonical, insn)
+                logger.debug("CANNOT MAP: %s <%s>", canonical, insn)
                 insn_mapping[insn] = None
             else:
                 insn_mapping[insn] = canonical_to_pmevo[canonical]
